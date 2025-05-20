@@ -1,0 +1,549 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 25%;
+    max-width: 35px;
+}
+
+.logo {
+    max-width: 120px;
+    min-width: 90px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #1C1E53;
+    padding: 16px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.navbar__items {
+    display: flex;
+}
+
+.navbar__items a {
+    color: rgba(187, 187, 203, 1);
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+.navbar__items .navbar__contact {
+    padding-left: 32px;
+}
+
+.navbar__contact a {
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    padding: 16px 48px;
+    color: white;
+
+}
+
+.navbar__items .active a {
+    color: white;
+}
+
+
+/* hero section */
+
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 128px 0;
+}
+
+.hero__content {
+    color: rgba(40, 41, 56, 1);
+    width: 39%;
+
+}
+
+.hero__content h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.hero__content h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    ;
+
+}
+
+.hero__content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 31px;
+
+}
+
+
+/* who-we-are section */
+.who-we .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 64px;
+    background-color: rgba(244, 245, 245, 1);
+}
+
+.who-we__content {
+    padding: 16px 109px 80px 79px;
+    color: rgba(40, 41, 56, 1);
+
+
+}
+
+.content__sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.who-we h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.who-we h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.who-we p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.who-we img {
+    width: 100%;
+}
+
+/* process */
+
+.process {
+    padding: 128px 0 128px 0;
+    color: rgba(40, 41, 56, 1);
+    ;
+}
+
+.process h2 {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.process__steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process__step {
+    width: 20%;
+}
+
+.step_shapes {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 32px;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgba(36, 5, 242, 1);
+}
+
+.step_shapes hr {
+    border: 1px dashed rgba(36, 5, 242, 0.4);
+    width: 100%;
+    height: 0;
+    margin: auto 8px
+}
+
+.process__steps h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.process__steps p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* mission */
+
+.mission {
+    background-color: rgba(238, 244, 250, 1);
+    padding: 128px 0 32px 0;
+}
+
+.mission__section {
+    display: flex;
+    color: #1C1E53;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    align-items: center;
+}
+
+.mission__section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mission__section h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mission__section h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    padding: 16px 0;
+}
+
+.section__content {
+    width: 45%;
+}
+
+/* benefits */
+.benefits .container {
+    padding: 128px 0;
+    color: #1C1E53;
+
+}
+
+.benefits h2 {
+    text-align: center;
+    padding-bottom: 48px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.benefits__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits .card {
+    background-color: rgba(244, 246, 252, 1);
+    padding: 50px 32.6px 48px 48px;
+    width: 32%;
+}
+
+.benefits .card h4 {
+    padding: 26px 0 12px 0;
+}
+
+.benefits__users {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.benefits__logos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.users__numbers h4 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.users__numbers p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.benefits__users img {
+    width: 100%;
+}
+
+/* team */
+.team {
+    padding: 128px 0;
+    color: #1C1E53;
+    background-color: rgba(244, 246, 252, 1);
+    text-align: center;
+
+}
+
+.team__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team .card {
+    background-color: white;
+    padding: 48px 64px 32px 64px;
+    text-align: center;
+}
+
+.card__img {
+    border-radius: 50%;
+}
+
+.team .card h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 30px 0 2px 0;
+}
+
+.team .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.team h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    padding-bottom: 48px;
+}
+
+/* contact */
+
+.contact {
+    background-color: #1C1E53;
+    color: white;
+}
+
+.contact .container {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__section .bottom {
+    background-color: rgba(252, 217, 128, 1);
+    color: #1C1E53;
+    display: flex;
+    padding: 17px 137px 16px 37px;
+    justify-content: space-between;
+    width: 517px;
+}
+
+.contact__section .top p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 24px 0 86px 0;
+}
+
+.contact__section {
+    width: 38%;
+}
+
+.contact__section .text-gray {
+    color: rgba(244, 246, 252, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 14px 0 28px 0;
+}
+
+.contact__section .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.contact__section .icons img {
+    padding-right: 10px;
+}
+
+.contact__section h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+
+/* footer */
+footer {
+    padding: 32px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: #1C1E53;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.footer__items {
+    display: flex;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    /* header */
+    .navbar__contact a {
+        padding: 8px 24px;
+    }
+
+    .navbar .container {
+        padding: 16px 5%;
+    }
+
+    /* hero */
+
+    .hero .container {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+    }
+
+    .hero__content h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .hero__image {
+        width: 55%;
+    }
+
+    .content__sections div {
+        width: 40%;
+    }
+
+    /* process */
+
+    .process .container {
+        padding: 0 5%;
+    }
+
+    .process__steps {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .process__step {
+        width: 40%;
+    }
+
+    .step_shapes {
+        margin: 24px 0 16px 0;
+    }
+
+    /* mission */
+
+    .mission .container {
+        padding: 0 5%;
+    }
+
+    .section__img {
+        width: 50%;
+    }
+
+    /* benefits */
+
+    .benefits .container {
+        padding: 5%;
+    }
+
+    .benefits__users {
+        flex-wrap: wrap;
+    }
+
+    .benefits__logos img {
+        margin-bottom: 20px;
+    }
+
+    /* team */
+
+    .team {
+        padding-top: 5%;
+    }
+
+    .team .container {
+        padding: 0 5%;
+    }
+
+    .team__cards {
+        justify-content: space-evenly;
+    }
+
+    .team .card {
+        width: 24%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* contact */
+
+    .contact .container {
+        padding: 5% 5% 0 5%;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 3% 5%;
+    }
+}
